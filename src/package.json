@@ -1,0 +1,10 @@
+{
+  "name": "@rulia/everia",
+  "title": "Everia",
+  "description": "Everia plugin.",
+  "version": "<VERSION>",
+  "author": "LittleStar_OuO",
+  "tags": ["everia", "image"],
+  "homepage": "https://github.com/LittleStar-OuO/plugin.Everia",
+  "requestedVersion": "0.17.0"
+}

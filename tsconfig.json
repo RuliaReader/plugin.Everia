@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["DOM", "ES5", "ES2015", "ES2016", "ES2017", "ES2018"],
+    "useDefineForClassFields": true,
+    "moduleDetection": "auto",
+    "moduleResolution": "Bundler",
+    "module": "ES2022",
+    "removeComments": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "types": [
+      "@rulia/types"
+    ]
+  },
+  "exclude": ["node_modules"]
+}
