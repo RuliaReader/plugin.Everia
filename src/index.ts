@@ -36,7 +36,7 @@ async function setMangaListFilterOptions() {
     })
 
     let $typeList = $($.parseHTML(rawStr))
-      .find('#menu-mainmenu')
+      .find('#menu-menu')
       .children('.menu-item')
 
     let result : MangaListFilterOptions = [{
@@ -199,7 +199,7 @@ async function getMangaList(rawPage : string, rawPageSize : string, keyword ?: s
 
       const url = $thumbnail.find('a').attr('href') || ''
 
-      const $cover = $thumbnail.find('.attachment-large')
+      const $cover = $thumbnail.find('.attachment-thumbnail')
       const coverSrc = $cover.attr('src') || 'https://i.postimg.cc/QxKfvThs/1-1x.png'
 
       const group = [
